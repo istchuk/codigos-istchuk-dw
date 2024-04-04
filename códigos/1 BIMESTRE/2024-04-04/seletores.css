@@ -1,3 +1,23 @@
 h1 {
     color: green;
 }
+
+#titulo_especial{
+    color: rgb(6, 80, 175);
+}
+
+.destaque {
+    background-color: rgb(213, 250, 220);
+}
+
+.cor-primaria {
+    color: rgb(4, 149, 35);
+}
+
+.cor-secundaria {
+    color: rgb(6, 121, 179);
+}
+
+.fundo-azul {
+    background-color: rgb(203, 221, 255);
+}
