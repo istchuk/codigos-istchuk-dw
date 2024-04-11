@@ -1,0 +1,15 @@
+.titulo-1 {
+    color: green;
+    background-color: rgb(218, 255, 231);
+    text-align: center;
+}
+
+.txt{
+    color: rgb(10, 88, 10);
+    text-align: center;
+    text-justify: auto;
+}
+
+strong {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
