@@ -1,5 +1,6 @@
 :root{
     --azul-escuro: #264653;
+    --azul-hover: #335d6e;
     --azul-claro: #2a9d8f;
     --amarelo: #e9c46a;
     --laranja-claro: #f4a261;
@@ -14,6 +15,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -22,20 +24,20 @@
     height: 100vh;
 }
 
-.menu {
+#menu {
     height: var(--altura-menu);
     background-color: var(--azul-escuro);
 }
 
-.menu ul{
+#menu ul{
     display: flex;
 }
 
-.menu li {
+#menu li {
     list-style: none;
 }
 
-.menu a{
+#menu a{
     display: inline-block;
     padding: 25px 15px;
     height: var(--altura-menu);
@@ -45,40 +47,34 @@
     transition: 0.3s;
 }
 
-.menu a:hover {
-    background-color: var(--laranja);
-    color: var(--amarelo);
+#menu a:hover {
+    background-color: var(--azul-hover);
 }
 
-.principal {
+#principal {
     height: calc(100vh - var(--altura-menu));
     background-color: var(--azul-claro);
     font-family: "Rowdies";
     color: var(--texto);
-    text-align: center;
 }
 
-.secao2 {
+#secao2 {
     background-color: var(--amarelo);
     height: 100vh;
     font-family: "Rowdies";
     color: var(--texto);
-    text-align: center;
-    font-size: 25px;
 }
 
-.secao3 {
+#secao3 {
     background-color: var(--laranja-claro);
     height: 100vh;
     font-family: "Rowdies";
     color: var(--texto);
-    text-align: center;
-    font-size: 25px;
 }
 
-.contatos {
+#contatos {
     background-color: var(--laranja);
-    height: 100vh;
+    height: 150px;
     font-family: "Rowdies";
     color: var(--texto);
 }
@@ -90,4 +86,8 @@
 h3{
     text-align: center;
     font-size: 25px;
+}
+
+a {
+    color: var(--texto);
 }
