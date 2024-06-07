@@ -55,12 +55,14 @@
 #principal {
     height: calc(100vh - var(--altura-menu));
     background-color: var(--laranja-claro);
+    background-image: url(https://png.pngtree.com/png-vector/20240402/ourmid/pngtree-vintage-crumpled-craft-package-wrapping-paper-texture-as-a-transparent-background-png-image_11989598.png);
     font-family: "Rowdies";
     color: var(--texto);
 }
 
 #secao2 {
     background-color: var(--amarelo);
+    background-image: url(https://png.pngtree.com/png-vector/20240402/ourmid/pngtree-vintage-crumpled-craft-package-wrapping-paper-texture-as-a-transparent-background-png-image_11989598.png);
     height: 100vh;
     font-family: "Rowdies";
     color: var(--texto);
@@ -68,6 +70,7 @@
 
 #secao3 {
     background-color: var(--azul-claro);
+    background-image: url(https://png.pngtree.com/png-vector/20240402/ourmid/pngtree-vintage-crumpled-craft-package-wrapping-paper-texture-as-a-transparent-background-png-image_11989598.png);
     height: 100vh;
     font-family: "Rowdies";
     color: var(--texto);
