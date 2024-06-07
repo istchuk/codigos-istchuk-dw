@@ -5,6 +5,7 @@
     --amarelo: #e9c46a;
     --laranja-claro: #f4a261;
     --laranja: #e76f51;
+    --laranja-hover: #df4119;
     --texto: white;
 
 
@@ -26,7 +27,7 @@
 
 #menu {
     height: var(--altura-menu);
-    background-color: var(--azul-escuro);
+    background-color: var(--laranja);
 }
 
 #menu ul{
@@ -48,12 +49,12 @@
 }
 
 #menu a:hover {
-    background-color: var(--azul-hover);
+    background-color: var(--laranja-hover);
 }
 
 #principal {
     height: calc(100vh - var(--altura-menu));
-    background-color: var(--azul-claro);
+    background-color: var(--laranja-claro);
     font-family: "Rowdies";
     color: var(--texto);
 }
@@ -66,14 +67,14 @@
 }
 
 #secao3 {
-    background-color: var(--laranja-claro);
+    background-color: var(--azul-claro);
     height: 100vh;
     font-family: "Rowdies";
     color: var(--texto);
 }
 
 #contatos {
-    background-color: var(--laranja);
+    background-color: var(--azul-escuro);
     height: 150px;
     font-family: "Rowdies";
     color: var(--texto);
@@ -90,4 +91,16 @@ h3{
 
 a {
     color: var(--texto);
+}
+
+.tigre {
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+}
+
+.tubarao {
+    height: 200px;
+    width: 300px;
+    margin: 15px;
 }
