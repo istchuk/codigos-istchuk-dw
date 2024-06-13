@@ -58,6 +58,7 @@
     background-image: url(https://png.pngtree.com/png-vector/20240402/ourmid/pngtree-vintage-crumpled-craft-package-wrapping-paper-texture-as-a-transparent-background-png-image_11989598.png);
     font-family: "Rowdies";
     color: var(--texto);
+    padding: 10px;
 }
 
 #secao2 {
@@ -66,6 +67,7 @@
     height: 100vh;
     font-family: "Rowdies";
     color: var(--texto);
+    padding: 10px;
 }
 
 #secao3 {
@@ -74,6 +76,7 @@
     height: 100vh;
     font-family: "Rowdies";
     color: var(--texto);
+    padding: 10px;
 }
 
 #contatos {
