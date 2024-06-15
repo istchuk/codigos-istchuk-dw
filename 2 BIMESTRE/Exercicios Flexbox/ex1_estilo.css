@@ -2,33 +2,40 @@
     --altura-cabecalho: 90px;
     --altura-rodape: 90px;
     --largura-sidebar: 150px;
+
+    --cor-topo: rgb(254, 254, 153);
+    --cor-sidebar: rgb(129, 177, 255);
+    --cor-rodape: rgb(255, 123, 123);
+    --cor-conteudo: rgb(141, 255, 141);
 }
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header {
-    background-color: rgb(255, 255, 114);
+
+.topo {
+    background-color: var(--cor-topo);
     height: var(--altura-cabecalho);
 }
 
 .sidebar {
-    background-color: rgb(93, 155, 255);
+    background-color: var(--cor-sidebar);
     height: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
     width: var(--largura-sidebar);
+
 }
 
 .rodape {
     height: var(--altura-rodape);
     align-self: flex-end;
-    background-color: #ff5252;
+    background-color: var(--cor-rodape);
 }
 
 .conteudo{
     width: calc(100vw - var(--largura-sidebar));
     height: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
-    background-color: rgb(83, 255, 83);
+    background-color: var(--cor-conteudo);
     justify-content: flex-end;
     align-items: center;
 }
