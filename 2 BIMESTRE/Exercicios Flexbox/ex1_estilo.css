@@ -1,3 +1,34 @@
-.topo {
-    b
+:root{
+    --altura-cabecalho: 90px;
+    --altura-rodape: 90px;
+    --largura-sidebar: 150px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(255, 255, 114);
+    height: var(--altura-cabecalho);
+}
+
+.sidebar {
+    background-color: rgb(93, 155, 255);
+    height: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
+    width: var(--largura-sidebar);
+}
+
+.rodape {
+    height: var(--altura-rodape);
+    align-self: flex-end;
+    background-color: #ff5252;
+}
+
+.conteudo{
+    width: calc(100vw - var(--largura-sidebar));
+    height: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
+    background-color: rgb(83, 255, 83);
+    justify-content: flex-end;
+    align-items: center;
 }
