@@ -5,10 +5,8 @@ body {
 }
 
 h1 {
-    text-align: center;
     color: white;
     font-size: 45px;
-    align-self: baseline;
 }
 
 /* --------- CLASSES --------- */
@@ -19,6 +17,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {
