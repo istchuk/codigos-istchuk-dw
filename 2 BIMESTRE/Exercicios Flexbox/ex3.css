@@ -1,18 +1,22 @@
 /* --------- ELEMENTOS --------- */
 
 body {
-    background-color: rgb(62, 97, 255);
+    background-color: rgb(59, 91, 219);
 }
 
 h1 {
     color: white;
-    font-size: 45px;
+    font-size: 50px;
+    align-self: flex-start;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 /* --------- CLASSES --------- */
 
 .container {
-    height: 100vh;
+    height: 400px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -37,7 +41,7 @@ h1 {
 }
 
 .plano-valor {
-    color: rgb(62, 97, 255);
+    color: rgb(59, 91, 219);
     font-size: 35px;
     font-weight: bold;
     text-align: center;
@@ -53,7 +57,7 @@ h1 {
 }
 
 .plano-comprar {
-    background-color: rgb(62, 97, 255);
+    background-color: rgb(59, 91, 219);
     color: white;
     text-align: center;
     padding: 10px;
