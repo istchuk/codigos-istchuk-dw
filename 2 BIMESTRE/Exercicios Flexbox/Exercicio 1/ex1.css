@@ -43,5 +43,4 @@ main {
     width: calc(100vw - var(--largura-sidebar));
     height: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
     background-color: var(--cor-conteudo);
-
 }
