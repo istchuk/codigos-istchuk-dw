@@ -1,6 +1,6 @@
-:root{
+:root {
     --altura-cabecalho: 90px;
-    --altura-rodape: 90px;
+    --altura-rodape: 90px; 
     --largura-sidebar: 150px;
 
     --cor-topo: rgb(254, 254, 153);
@@ -14,32 +14,29 @@
     margin: 0;
     box-sizing: border-box;
 }
- 
+
 .container {
     display: flex;
     flex-wrap: wrap;
 }
 
 header {
-    background-color: var(--cor-topo);
-    height: var(--altura-cabecalho);
-    width: 100vw;
 }
 
 aside {
     background-color: var(--cor-sidebar);
     height: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
-    width: var(--largura-sidebar);      
-}
-
-footer {
-    height: var(--altura-rodape);
-    width: 100vw;
-    background-color: var(--cor-rodape);
+    width: var(--largura-sidebar);
 }
 
 main {
+    background-color: var(--cor-conteudo);
     width: calc(100vw - var(--largura-sidebar));
     height: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
-    background-color: var(--cor-conteudo);
+}
+
+footer {
+    background-color: var(--cor-rodape);   
+    height: var(--altura-rodape);
+    width: 100%; 
 }
