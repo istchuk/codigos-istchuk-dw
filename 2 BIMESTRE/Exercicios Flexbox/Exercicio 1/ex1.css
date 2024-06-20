@@ -24,7 +24,7 @@
 header {
     background-color: var(--cor-topo);
     height: var(--altura-cabecalho);
-    width: 100vw;
+    width: 100%;
 }
 
 aside {
@@ -35,8 +35,8 @@ aside {
 
 footer {
     height: var(--altura-rodape);
+    width: 100%;
     background-color: var(--cor-rodape);
-    width: 100vw;
 }
 
 main {
