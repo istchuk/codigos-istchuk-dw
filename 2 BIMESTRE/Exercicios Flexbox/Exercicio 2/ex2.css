@@ -1,4 +1,10 @@
-:root{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
     --altura-cabecalho: 90px;
     --altura-rodape: 90px;
     --largura-sidebar: 150px;
@@ -8,40 +14,37 @@
     --cor-rodape: rgb(255, 123, 123);
     --cor-conteudo: rgb(141, 255, 141);
 }
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
- 
+
 .container {
-    background-color: gray;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+aside {
+    background-color: var(--cor-sidebar);
+    height: 100vh;
+    width: var(--largura-sidebar);
 }
 
 header {
     background-color: var(--cor-topo);
     height: var(--altura-cabecalho);
-    width: 100%;
-}
-
-aside {
-    background-color: var(--cor-sidebar);
-    height: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
-    width: var(--largura-sidebar);
-
-}
-
-footer {
-    height: var(--altura-rodape);
-    background-color: var(--cor-rodape);
-    width: 100%;
+    width: calc(100vw - var(--largura-sidebar));
 }
 
 main {
+    background-color: var(--cor-conteudo);
     width: calc(100vw - var(--largura-sidebar));
     height: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
-    background-color: var(--cor-conteudo);
-
 }
+
+footer {
+    background-color: var(--cor-rodape);
+    width: calc(100vw - var(--largura-sidebar));
+    height: var(--altura-rodape);
+}
+
+
