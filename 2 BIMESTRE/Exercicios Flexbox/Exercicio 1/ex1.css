@@ -29,8 +29,7 @@ header {
 aside {
     background-color: var(--cor-sidebar);
     height: calc(100vh - var(--altura-cabecalho) - var(--altura-rodape));
-    width: var(--largura-sidebar);
-
+    width: var(--largura-sidebar);      
 }
 
 footer {
