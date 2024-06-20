@@ -21,6 +21,9 @@
 }
 
 header {
+    background-color: var(--cor-topo);
+    height: var(--altura-cabecalho);
+    width: 100%;
 }
 
 aside {
