@@ -5,9 +5,9 @@
 }
 
 :root {
-    --altura-cabecalho: 90px;
-    --altura-rodape: 90px;
-    --largura-sidebar: 150px;
+    --altura-cabecalho: 5.625rem;
+    --altura-rodape: 5.625rem;
+    --largura-sidebar: 9.375rem;
 
     --cor-topo: rgb(254, 254, 153);
     --cor-sidebar: rgb(129, 177, 255);
