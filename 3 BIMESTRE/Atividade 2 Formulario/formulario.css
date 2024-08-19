@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-height: 100vh;
+    max-width: 100%;
+    justify-content:space-between;
+}
+
+.esquerda {
+    height: 100vh;
+    width: 37%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 90px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    height: 100vh;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.login {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.login p {
+    color: white;
+}
+
+.login h3 {
+    font-weight: normal;
+    color: rgb(76, 76, 76);
+    font-size: 18px;
+}
+
+.continue {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    width: 100%;
+}
+
+.or {
+    text-align: center;
+    color: rgb(62, 62, 62);
+}
