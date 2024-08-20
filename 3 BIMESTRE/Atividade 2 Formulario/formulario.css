@@ -29,13 +29,15 @@
     border-radius: 30px;
     background-image: url(./StockCake-Historic\ university\ building_1724094555.jpg);
     background-position-y: center;
+    display: flex;
+    align-items: flex-start; 
 }
 
 .direita h1 {
     padding: 20px;
     display: flex;
-    align-items: flex-start;
     color: white;
+    text-indent: 100px;
 
 }
 
@@ -85,16 +87,19 @@ input {
 
 .tipoLogin img {
     width: 20px;
+    vertical-align: middle;
 }
 
 .termos {
     text-align: center;
     padding: 10px;
+    color: rgb(72, 72, 72);
 }
 
 .termos span {
     font-weight: bold;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .continue:hover {
@@ -104,9 +109,10 @@ input {
 }
 
 .tipoLogin :hover {
-    padding: 12px;
+    padding: 10px;
     transition: 0.5s;
     cursor: pointer;
+    transition-property: all;
 
 }
 
