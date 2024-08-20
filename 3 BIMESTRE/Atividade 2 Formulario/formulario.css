@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
 .container {
@@ -13,20 +14,29 @@
 
 .esquerda {
     height: 100vh;
-    width: 37%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 90px;
+    width: 44vw;
+    /* margin: 90px; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 90px;
 
 }
 
-img {
+.direita {
     height: 100vh;
-    width: 100%;
+    width: 56vw;
     border-radius: 30px;
+    background-image: url(./StockCake-Historic\ university\ building_1724094555.jpg);
+    background-position-y: center;
+}
+
+.direita h1 {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    color: white;
+
 }
 
 .login {
@@ -61,4 +71,45 @@ input {
 .or {
     text-align: center;
     color: rgb(62, 62, 62);
+}
+
+.tipoLogin {
+    text-align: center;
+    padding: 20px;
+}
+
+.tipoLogin p {
+    border: 1px solid rgb(153, 153, 153);
+    padding: 5px; 
+}
+
+.tipoLogin img {
+    width: 20px;
+}
+
+.termos {
+    text-align: center;
+    padding: 10px;
+}
+
+.termos span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.continue:hover {
+    padding: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.tipoLogin :hover {
+    padding: 12px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+span:hover {
+    color: rgb(123, 0, 255);
 }
