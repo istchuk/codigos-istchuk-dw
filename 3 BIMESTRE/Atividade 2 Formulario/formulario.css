@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial";
 }
 
 .container {
@@ -61,7 +61,6 @@
     padding: 10px;
     text-align: center;
     width: 100%;
-    border-radius: 200px;
 }
 
 input {
