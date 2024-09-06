@@ -5,7 +5,7 @@
     font-family: Arial;
 }
 
-h1{
+h1 {
     align-self: flex-start;
     padding: 5px;
     font-size: 50px;
@@ -19,7 +19,7 @@ button {
     color: white;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
@@ -29,7 +29,7 @@ button:hover{
 
 .container {
     height: 80vh;
-    width: 80%;    
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,41 +40,46 @@ button:hover{
 .velocidade {
     border: 1px solid black;
     padding: 50px;
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 450px;
     background-color: rgb(223, 222, 222);
     margin: 5px;
     border-radius: 4px;
+    font-size: 20px;
 }
 
-.velocidade input{
+.velocidade input {
     width: 230px;
     height: 30px;
     border-radius: 4px;
     background-color: blanchedalmond;
 }
 
-.input{
+.input {
     padding: 10px;
     display: flex;
-    flex-direction: column ;
-    
+    flex-direction: column;
+
 }
 
-.tabelaMulta{
+.tabelaMulta {
     border: 1px solid black;
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 450px;
     padding: 50px;
     background-color: rgb(224, 224, 224);
     margin: 5px;
     border-radius: 4px;
+    font-size: 20px;
 }
 
 .divSaida {
-    background-color: rgb(220, 60, 60);
+    background-color: rgb(216, 169, 169);
+    border: 2px solid red;
     width: 50vw;
     justify-content: center;
     padding: 10px;
     border-radius: 4px;
+    text-align: center;
+    margin-top: 5px;
 }
