@@ -15,7 +15,7 @@ if (condicao1 == true) {
 }
 else {
     if (condicao3 == true){
-        console.log("A")
+    console.log("A")
     }
     else{
         console.log("B")

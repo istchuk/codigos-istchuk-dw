@@ -2,8 +2,8 @@ let condicao1 = true
 let condicao2 = true
 let condicao3 = false
 
-console.log("A")
-console.log("B")
+console.log("1")
+console.log("2")
 
 if (condicao1 == true){
     console.log("A")
