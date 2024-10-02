@@ -4,7 +4,7 @@ function numerosPares(numero){
     while (i <= numero){
         if (i % 2 == 0){
         console.log(i)
-        }
+        }   
         i += 1
     }
 }
