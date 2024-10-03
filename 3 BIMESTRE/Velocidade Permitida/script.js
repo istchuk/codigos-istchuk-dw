@@ -28,4 +28,4 @@ function multa(){
 
 }
 
-botaoCalcular.onclick = multa   
+botaoCalcular.onclick = multa  
