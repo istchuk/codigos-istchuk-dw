@@ -18,7 +18,7 @@ function somaSerie(cont){
         i += 1
     }
     
-    return resultado // wehfbysd
+    return resultado
 }
 
 console.log(somaSerie(3)) // 1 + 6 + 15 = 22
