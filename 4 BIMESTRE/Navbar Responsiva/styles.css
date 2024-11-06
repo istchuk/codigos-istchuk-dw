@@ -52,22 +52,20 @@ main p{
 
 #sidebar {
     position: fixed;
-    top: 0;
-    right: auto;
-    height: 85vh;
-    width: 100vw;
-    background-color: rgb(2, 88, 2);
-    backdrop-filter: blur(10px);
+    bottom: 0; 
+    left: 0; 
+    height: 85vh; 
+    width: 100%; 
+    background-color: rgb(0, 71, 7); 
+    display: none; 
     flex-direction: column;
-    justify-content: start;
-    align-items: centerc;
-    padding: 15px;
-    z-index: 999;
-    
+    justify-content: flex-start; 
+    align-items: center; 
+    z-index: 999; 
+    padding-top: 20px; 
 }
 
-.closeIcon {
-    align-self: flex-end;
+.icon{
     fill: #fff;
 }
 
@@ -75,9 +73,16 @@ main p{
     .hideMobile{
         display: none;
     }
+    #hamburgerIcon {
+        display: block;
+    }
 }
+
 @media (min-width: 768px){
     .hideDesktop {
+        display: none;
+    }
+    #sidebar {
         display: none;
     }
 }
