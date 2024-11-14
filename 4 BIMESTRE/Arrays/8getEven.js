@@ -10,7 +10,6 @@ function getEvenNumbers(arr) {
         }
         i++
     }
-
     return evenNumbers
 }
 
